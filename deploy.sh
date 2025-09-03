@@ -28,6 +28,10 @@ fi
 echo "🔧 Activating virtual environment..."
 source venv/bin/activate
 
+# Ensure pip is available in the virtual environment
+echo "🔧 Ensuring pip is available..."
+python3 -m ensurepip --default-pip
+
 # Install Node.js dependencies
 echo "📦 Installing Node.js dependencies..."
 npm install
