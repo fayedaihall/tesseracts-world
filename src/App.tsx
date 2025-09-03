@@ -3,7 +3,7 @@ import { Header } from './components/Layout/Header';
 import { Dashboard } from './components/Dashboard/Dashboard';
 import { MovementDemo } from './components/Movement/MovementDemo';
 import { CommerceDemo } from './components/Commerce/CommerceDemo';
-import { Globe, Zap, Activity, AlertCircle } from 'lucide-react';
+import { Globe, Zap, Activity, AlertCircle, RefreshCw, CheckCircle } from 'lucide-react';
 
 function App() {
   const [currentSection, setCurrentSection] = useState('dashboard');
