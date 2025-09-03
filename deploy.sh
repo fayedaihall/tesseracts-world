@@ -28,6 +28,10 @@ fi
 echo "🔧 Activating virtual environment..."
 source venv/bin/activate
 
+# Install Node.js dependencies
+echo "📦 Installing Node.js dependencies..."
+npm install
+
 # Install dependencies
 echo "📚 Installing dependencies..."
 pip install --upgrade pip
